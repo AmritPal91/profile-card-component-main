@@ -60,7 +60,7 @@ hr{
 .bottom-data{
   display: flex;
   justify-content: space-around;
-  padding: 4% 0;
+  padding: 5% 0;
 }
 .status-fig{
   font-weight: 700;
@@ -81,7 +81,7 @@ hr{
     background-size: 90vw 89vh, auto 95vh;
   }
   .container{
-    height: 55vh;
+    height: 52vh;
     width: 87vw;
   }
 }
