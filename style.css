@@ -52,7 +52,7 @@ span{
   opacity:0.8;
 }
 .data p{
-  padding-bottom: 7%;
+  padding-bottom: 6%;
 }
 hr{
   opacity: 0.3;
@@ -60,7 +60,7 @@ hr{
 .bottom-data{
   display: flex;
   justify-content: space-around;
-  padding: 5% 0;
+  padding: 3.5% 0;
 }
 .status-fig{
   font-weight: 700;
@@ -81,7 +81,7 @@ hr{
     background-size: 90vw 89vh, auto 95vh;
   }
   .container{
-    height: 52vh;
+    height: 53vh;
     width: 87vw;
   }
 }
