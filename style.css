@@ -43,7 +43,7 @@ h3 {
 .font-size{
   font-size: 14px;
   opacity:0.9;
-  padding-bottom: 8.5%;
+  padding-bottom: 35px;
 }
 .font-color{
   color: hsl(227, 10%, 46%);
@@ -58,7 +58,7 @@ hr{
 .bottom-data{
   display: flex;
   justify-content: space-around;
-  padding: 6.8% ;
+  padding: 20px ;
 }
 .status-fig{
   font-weight: 700;
@@ -71,6 +71,7 @@ hr{
   opacity:0.6;
    text-shadow:0 1px grey;
    letter-spacing:1.5px;
+   padding-top: 4px;
 }
 
 /*Mobile View  */
@@ -81,14 +82,12 @@ hr{
     background-position: right 45vw bottom 69vh, left 42vw top 55vh;
     background-size: 90vw 89vh, auto 95vh;
   }
+  .font-size{
+  padding-bottom: 29px;
+}
   .container{
-    height: 52vh;
+    height: 54vh;
     width: 87vw;
   }
-  .font-size{
-  padding-bottom: 7%;
-}
-  .bottom-data{
-  padding: 6% ;
-}
+
 }
