@@ -35,10 +35,12 @@ main {
   margin-top: -52px;
   border: 6px solid white;
 }
-h3 {
-  font-weight: 700;
-  font-size: 18px;
+h1 {
   padding:  10px 0;
+}
+h1,status-fig{
+  font-size: 18px;
+  font-weight: 700;
 }
 .font-size{
   font-size: 14px;
@@ -64,8 +66,6 @@ hr{
   opacity: 0.7;
 }
 .status-fig{
-  font-weight: 700;
-  font-size: 18px;
   text-shadow:0 0 black;
 }
  .status{
@@ -77,19 +77,43 @@ hr{
 
 @media screen and (max-width:425px){
   main{
-    height: 100vh;
-    width: 100vw;
     background-position: right 45vw bottom 69vh, left 42vw top 55vh;
     background-size: 90vw 89vh, auto 95vh;
   }
   .font-size{
-  padding-bottom: 23px;
+  padding-bottom: 19px;
 }
   .container{
-    height: 340px;
-    max-width: 330px;
-    min-width: 285px;
+    height: 335px;
+    width: 285px;
   }
+  .bottom-data{
+    padding: 12px ;
+}
+}
+
+@media screen and  (orientation:landscape){
+  .container{
+    height: 280px;
+    width: 260px;
+  }
+  .container .bg-patten{
+  height: 100px;
+  }
+
+  h1,.status-fig{
+  font-size: 15px;
+  font-weight: 700;
+}
+  .data img{
+ height: 90px; 
+    width: 90px;
+}
+  .font-size{
+  padding-bottom: 16px;
+    font-size: 13px;
+  
+}
   .bottom-data{
     padding: 12px ;
 }
