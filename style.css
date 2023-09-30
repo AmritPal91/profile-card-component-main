@@ -17,15 +17,15 @@ main {
   background-color: hsl(185, 75%, 39%);
 }
 .container{
-  height: 52%;
-  width: 25%;
+  height: 360px;
+  width: 330px;
   border-radius: 15px;
   text-align:center;
   background-color: white;
 }
 .container .bg-patten{
   background-image: url("./images/bg-pattern-card.svg");
-  height: 36%;
+  height: 130px;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
@@ -43,14 +43,14 @@ h3 {
 .font-size{
   font-size: 14px;
   opacity:0.9;
-  padding-bottom: 35px;
+  padding-bottom: 30px;
 }
-.font-color{
+.font-color,span, .status{
   color: hsl(227, 10%, 46%);
 }
 span{
   font-weight: 400;
-  opacity:0.8;
+  
 }
 hr{
   opacity: 0.3;
@@ -60,6 +60,9 @@ hr{
   justify-content: space-around;
   padding: 20px ;
 }
+.status-fig, h3,.status, span{
+  opacity: 0.7;
+}
 .status-fig{
   font-weight: 700;
   font-size: 18px;
@@ -67,15 +70,12 @@ hr{
 }
  .status{
   font-size: 10px;
-  color: hsl(227, 10%, 46%);
-  opacity:0.6;
    text-shadow:0 1px grey;
    letter-spacing:1.5px;
    padding-top: 3px;
 }
 
-/*Mobile View  */
-@media screen and (min-width:360px) and (max-width:412px){
+@media screen and (max-width:425px){
   main{
     height: 100vh;
     width: 100vw;
@@ -83,11 +83,14 @@ hr{
     background-size: 90vw 89vh, auto 95vh;
   }
   .font-size{
-  padding-bottom: 29px;
+  padding-bottom: 23px;
 }
   .container{
-    height: 360px;
-    width: 330px;
+    height: 340px;
+    max-width: 330px;
+    min-width: 285px;
   }
-
+  .bottom-data{
+    padding: 12px ;
+}
 }
